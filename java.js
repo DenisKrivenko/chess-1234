@@ -15,3 +15,11 @@ function klick() {
 
 }
 
+function brown(){
+    {document.getElementById('table').className='brown'};
+    }
+
+function black(){
+    {document.getElementById('table').className='black'};
+}
+

@@ -1,6 +1,26 @@
 body {border: 10px solid red;margin: 10px;padding: 10px}
-table {width: 500px;
-   height: 500px ;border:5px solid black}
-h1 {color: red}
-tr:nth-child(even) td:nth-child(odd) {background-color: black}
-tr:nth-child(odd) td:nth-child(even) {background-color: black}
+
+table{width: 500px;height: 500px ;border:5px solid black;}
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even) {background-color:black
+}
+.brown tr:nth-child(even) td:nth-child(odd) {background-color: brown}
+.brown tr:nth-child(odd) td:nth-child(even) {background-color: brown
+}
+.black tr:nth-child(even) td:nth-child(odd) {background-color: black}
+.black tr:nth-child(odd) td:nth-child(even) {background-color: black;
+}
+
+button{
+    background-color: #03A9F4;
+    border: none;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+}
+button:focus{
+
+    background-color: darkgray;
+}
